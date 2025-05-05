@@ -1,0 +1,27 @@
+//Linux commands
+
+//information maintenance
+wc file.txt       # Word/line/byte count
+clear             # Clears terminal
+cal               # Displays calendar
+who               # Shows who is logged in
+date              # Current date/time
+pwd               # Prints current directory
+
+//file management
+cat file.txt             # View file
+cp file1 file2           # Copy file
+rm file.txt              # Delete file
+mv old new               # Rename/move
+cmp file1 file2          # Compare files
+comm file1 file2         # Common lines
+diff file1 file2         # Differences
+find . -name "*.txt"     # Find files
+grep "text" file.txt     # Search text
+awk '{print $1}' file.txt # Extract columns
+
+//directory management
+cd /path             # Change directory
+mkdir newdir         # Create directory
+rmdir emptydir       # Remove directory
+ls                   # List contents
